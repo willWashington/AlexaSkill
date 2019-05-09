@@ -3,7 +3,7 @@ An Alexa skill I have been working on for quite a while now that has been scrubb
 
 I began writing this skill with a boilerplate. The boilerplate contained the following:
 
-
+```
 namespace AlexaSkillTime
 {
     public class Function : ILambdaLogger
@@ -51,5 +51,5 @@ public List<StoryResource> GetResources()
  public SkillResponse FunctionHandler(SkillRequest input)
         {
 -^added my own customization to this method
-
+```
 I wrote the rest of this document with the support of my mentor Lance Hilliard.
