@@ -3,13 +3,13 @@ An Alexa skill I have been working on for quite a while now that has been scrubb
 
 I began writing this skill with a boilerplate. The boilerplate contained the following:
 
----
+
 namespace AlexaSkillTime
 {
     public class Function : ILambdaLogger
----
 
----
+
+
  public class StoryResource
         {
             public StoryResource(string language)
@@ -28,12 +28,13 @@ namespace AlexaSkillTime
             public string CancelMessage { get; set; }
             public string StopMessage { get; set; }
         }
----
 
----
+
+
 public List<StoryResource> GetResources()
         {
---- most of this method was already there - I added my own IP
+    
+most of this method was already there - I added my own IP
 
 ---
  public SkillResponse FunctionHandler(SkillRequest input)
